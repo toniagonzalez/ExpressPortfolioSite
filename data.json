@@ -1,0 +1,118 @@
+{
+  "data": {
+      "title": "FullStack JavaScript Projects",
+      "projects": [
+        {
+          "id": "0",
+          "project_name": "Random Quote Generator",
+          "description": "This program generates a random quote along with the Arabic translation for the quote.",
+          "technologies": [
+                          "JavaScript",
+                          "CSS",
+                          "HTML"
+                         ],
+          "live_link": "https://toniagonzalez.github.io/RandomQuotes/",
+          "github_link": "https://github.com/toniagonzalez/RandomQuotes",
+          "img_urls": [
+                "../static/img/randomQuotePolaroid.png",
+                "../static/img/quote1.png",
+                "../static/img/quote2.png",
+                "../static/img/quote3.png"
+               ]
+        },
+        {
+          "id": "1",
+          "project_name": "Web App Dashboard",
+          "description": "Functionality and interactivity are provided to the dashboard with a message notification counter, an alert banner that displays on load, toggle button functionality. Also the app uses local storage to save user preferences.",
+          "technologies":[
+                          "JavaScript",
+                          "Chart.js",
+                          "CSS Grid",
+                          "HTML"
+                         ],
+          "live_link": "https://toniagonzalez.github.io/WebAppDashboard/",
+          "github_link": "https://github.com/toniagonzalez/WebAppDashboard",
+          "img_urls": [
+                "../static/img/dashboardPolaroid.png",
+                "../static/img/dashboard1.png",
+                "../static/img/dashboard2.png",
+                "../static/img/dashboard3.png"
+               ]
+        },
+        {
+          "id": "2",
+          "project_name": "Interactive Form",
+          "description": "Customized and conditional behavior and interactivity is added to a form to validate user input and provide helpful error messages when the user enters invalid information into the form fields.",
+          "technologies":[
+                          "JavaScript",
+                          "JQuery",
+                          "CSS",
+                          "HTML"
+                          ],
+          "live_link": "https://toniagonzalez.github.io/InteractiveForm/",
+          "github_link": "https://github.com/toniagonzalez/InteractiveForm",
+          "img_urls": [
+                "../static/img/formPolaroid.png",
+                "../static/img/form1.png",
+                "../static/img/form2.png",
+                "../static/img/form3.png"
+               ]
+        },
+        {
+          "id": "3",
+          "project_name": "Game Show",
+          "description": "Star Trek themed word guessing game that uses Object-Oriented Javascript to select a random, hidden phrase, which a player tries to guess, by clicking the letters on the onscreen or by using their physical keyboard.",
+          "technologies": [
+                          "Object Oriented JavaScript",
+                          "CSS",
+                          "HTML"
+                         ],
+          "live_link": "https://toniagonzalez.github.io/ObjectOrientedJSGame/",
+          "github_link": "https://github.com/toniagonzalez/ObjectOrientedJSGame",
+          "img_urls": [
+               "../static/img/phaseHunterPolaroid.png",
+               "../static/img/gameCover.png",
+               "../static/img/gameDetail.png",
+               "../static/img/gameWin.png"
+               ]
+        },
+        {
+          "id": "4",
+          "project_name": "Public API",
+          "description": "With Fetch a JSON object is parsed to obtain information for 12 employees which included with their thumbnail image, full name, email, and location. The site includes additional interactivity which offers a search bar and modal window for to provide access to more detailed employee information.",
+          "technologies": [
+                          "JavaScript",
+                          "JQuery",
+                          "CSS",
+                          "HTML"
+                         ],
+          "live_link": "https://toniagonzalez.github.io/PublicAPI/",
+          "github_link": "https://github.com/toniagonzalez/PublicAPI",
+          "img_urls": [
+                "../static/img/directoryPolaroid.png",
+                "../static/img/apiTop.png",
+                "../static/img/apiDetail.png",
+                "../static/img/apiSearch.png"
+               ]
+        },
+        {
+          "id": "5",
+          "project_name": "Pagination",
+          "description": "A long list of employee information is divided into a series of pages for greater usability.",
+          "technologies": [
+                          "JavaScript",
+                          "CSS",
+                          "HTML"
+                         ],
+          "live_link": "https://toniagonzalez.github.io/Pagination/",
+          "github_link": "https://github.com/toniagonzalez/Pagination",
+          "img_urls": [
+                "../static/img/paginationPolaroid.png",
+                "../static/img/pagination1.png",
+                "../static/img/pagination2.png",
+                "../static/img/pagination3.png"
+               ]
+        }
+      ]
+  }
+}

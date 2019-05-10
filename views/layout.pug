@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+html(class="no-js" lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title FullStack JavaScript Projects
+    link(rel='icon' type='imgage/png' href='../static/img/blackLogo.png' sizes='16x16')
+    link(href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='/static/css/foundation.css')
+    link(rel='stylesheet', href='/static/css/style.css')
+  body
+    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
+      .grid-y.grid-padding-x(style='height: 100%;')
+        block sidebar
+          br
+          .cell.shrink
+            img.thumbnail(src='../static/img/polaroid.png' alt='Tonia Gonzalez Photo')
+          .cell.auto
+
+            h5 Tonia Gonzalez
+
+            p.text-light
+              | I am a Fullstack developer with a passion for Front End Design.
+
+            a(href='/about') Learn More →
+
+    .off-canvas-content(data-off-canvas-content='')
+      .title-bar.hide-for-large
+        .title-bar-left
+          button.menu-icon(type='button', data-toggle='my-info')
+          span.title-bar-title Tonia Gonzalez
+      block content
+
+
+
+  script(src='/static/js/vendor/jquery.js')
+  script(src='/static/js/vendor/what-input.js')
+  script(src='/static/js/vendor/foundation.js')
+  script(src='/static/js/scripts.js')
