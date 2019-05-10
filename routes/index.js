@@ -12,13 +12,9 @@ router.get('/about', (req, res)=>{
   res.render('about');
 })
 
-router.get('/error', (req, res)=>{
-  res.render('error');
-})
-
 router.get('/projects/:id', (req, res, next)=>{
   const id = parseInt(req.params.id);
-  if(id >= data.projects.length){
+  if(data.projects.includes(id) === false){
     next();
   }
   res.render('projects', data.projects[id]);
