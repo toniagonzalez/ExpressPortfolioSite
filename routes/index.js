@@ -13,11 +13,15 @@ router.get('/about', (req, res)=>{
 })
 
 router.get('/projects/:id', (req, res, next)=>{
-  const id = parseInt(req.params.id);
-  if(data.projects.includes(id) === false){
-    next();
+  const id = Math.abs(parseInt(req.params.id));
+  if(id >= data.projects.length){
+      const err = new Error('Not Found');
+      return next();
   }
+  else{
   res.render('projects', data.projects[id]);
+  }
 })
+
 
 module.exports = router;

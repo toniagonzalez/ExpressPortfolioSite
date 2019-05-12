@@ -9,6 +9,7 @@ app.set('view engine', 'pug');
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use('/static', express.static('public'));
 const routes = require('./routes');
+
 app.use(routes);
 
 app.use((req, res, next) => {
@@ -20,8 +21,8 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
-  console.log(err.status);
-  console.log(err.message);
+  console.log('Error Status: ' + err.status);
+  console.log('Error Message: ' + err.message);
   res.render('error');
 });
 
