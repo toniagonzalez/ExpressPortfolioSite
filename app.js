@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const {data} = require('./data.json');
 const app = express();
-
+const port = process.env.PORT || 3000;
 
 app.set('view engine', 'pug');
 
@@ -27,6 +27,6 @@ app.use((err, req, res, next) => {
 });
 
 
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
   console.log('Go to "localhost:3000" in your browser to view the site!');
 });
